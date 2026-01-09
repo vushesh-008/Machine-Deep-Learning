@@ -31,9 +31,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install required dependencies:
 
-For TensorFlow/Keras:
+For TensorFlow:
 ```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow keras
+pip install numpy pandas matplotlib scikit-learn tensorflow
 ```
 
 For PyTorch:
@@ -43,7 +43,7 @@ pip install numpy pandas matplotlib scikit-learn torch torchvision
 
 Or install both (may increase disk usage):
 ```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow keras torch torchvision
+pip install numpy pandas matplotlib scikit-learn tensorflow torch torchvision
 ```
 
 ## 📂 Repository Structure
