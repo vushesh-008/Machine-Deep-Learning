@@ -30,8 +30,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install required dependencies:
+
+For TensorFlow/Keras:
 ```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow keras torch
+pip install numpy pandas matplotlib scikit-learn tensorflow keras
+```
+
+For PyTorch:
+```bash
+pip install numpy pandas matplotlib scikit-learn torch torchvision
+```
+
+Or install both (may increase disk usage):
+```bash
+pip install numpy pandas matplotlib scikit-learn tensorflow keras torch torchvision
 ```
 
 ## 📂 Repository Structure
@@ -84,12 +96,12 @@ Machine-Deep-Learning/
 
 ## 🛠️ Usage
 
-Each folder contains implementations with detailed documentation. Navigate to the specific topic folder and follow the instructions in the respective README files.
+Each folder is structured to contain implementations with detailed documentation. Once implementations are added, you can navigate to the specific topic folder and follow the instructions.
 
-Example:
+Example structure (when implementations are added):
 ```bash
 cd logistic_regression
-python example.py
+# Run specific implementation files when available
 ```
 
 ## 📝 Learning Path
